@@ -1,0 +1,18 @@
+Ex2
+c)	$t0		Imm	$t2 (sll)	$t3 (srl)	$t4 (sra)
+	0x12345678	1	0x2468acf0	0x091a2b3c	0x091a2b3c
+	0x12345678	4	0x23456780	0x01234567	0x01234567
+	0x12345678	16	0x56780000	0x00001234	0x00001234
+	0x862A5C1B	2	0x18a9706c	0x218a9706	0xe18a9706
+	0x862A5C1B	4	0x62a5c1b0	0x0862a5c1	0xf862a5c1
+
+d)	bin	gray	(ambos estão convertidos para hexadecimal tal como no MARS)
+	2	3
+	4	6
+	5	7
+
+e)	gray	bin	(ambos estão convertidos para hexadecimal tal como no MARS)
+	2	3
+	7	5
+	13	9
+	15	a
