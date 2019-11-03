@@ -1,0 +1,23 @@
+Ex3
+b)	Os resultados para x = 3 e x = 5 são simétricos (-2 e 2 respetivamente).
+
+c)	Para:	x = 2 => print_int16() :0xfffffffc
+		x = 3 => print_int16() :0xfffffffe
+		x = 4 => print_int16() :0x00000000
+		x = 5 => print_int16() :0x00000002
+
+d)	Para:	x = 2 => print_int10()  :-4
+			 print_int16()  :0xfffffffc
+			 print_intu10() :4294967292
+
+		x = 3 => print_int10()  :-2
+			 print_int16()  :0xfffffffe
+			 print_intu10() :4294967294
+
+		x = 4 => print_int10()  :0
+			 print_int16()  :0x00000000
+			 print_intu10() :0
+
+		x = 5 => print_int10()  :2
+			 print_int16()  :0x00000002
+			 print_intu10() :2
