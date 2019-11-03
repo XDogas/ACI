@@ -1,2 +1,2 @@
 # ACI
-Arquitetura de Computadores I
+Resolução dos exercícios de Arquitetura de Computadores I
